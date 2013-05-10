@@ -1,0 +1,31 @@
+{
+  "name": "simple_redis",
+  "version": "0.1.0",
+  "description": "Node.js client for simple redis (free redis instances).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "redis": "~0.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bobrik/simple_redis.git"
+  },
+  "keywords": [
+    "redis",
+    "simple",
+    "simple_redis",
+    "port6379",
+    "free"
+  ],
+  "author": "Ian Babrou <ibobrik@gmail.com> (http://bobrik.name/)",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "f60916408a63f1bbcb1d7cf3cc45494bad25d82c"
+}
