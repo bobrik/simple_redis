@@ -35,26 +35,27 @@ simple.request("me@example.com", {connect_timeout: 1000}, function(error, client
 
 * Requiring
 
-```javascript
-var simple = require("simple_redis");
-```
+    ```javascript
+    var simple = require("simple_redis");
+    ```
 
 * Requesting instance
 
-```javascript
-simple.request(email, redis_client_options, callback);
-simple.request(email, callback);
-```
+    ```javascript
+    simple.request(email, redis_client_options, callback);
+    simple.request(email, callback);
+    ```
 
-You will receive `error` (error if any), `client` (redis client) and `info` (object with redis info) in callback.
+    You will receive `error` (error if any), `client` (redis client) and `info` (object with redis info) in callback.
 
 * Terminating instance
 
-```javascript
-simple.terminate(id, callback);
-```
+    ```javascript
+    simple.terminate(id, callback);
+    simple.terminate(id);
+    ```
 
-Callback is optional, `id` is from third argument of `simple.request`.
+    You can get `id` from the thind argument of `callback` in `simple.request`.
 
 ### Authors
 
